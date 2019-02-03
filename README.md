@@ -52,6 +52,7 @@ Relu: tf.nn.relu()
 5.CONFIG.PY
 
 --Contains the parameters like learning rate, iterations etc to experiment with.
---For the best model, the learinng rate has been maintained as 0.1 and the max_iterations is modified to 2001.
---This gave the best accuracy : 75.574
+--For the best model, the learinng rate has been maintained as 0.1 and the max_iterations is modified to 9001.
+--The activaton function is ReLU and number of hidden layers used were 3
+--This gave the best accuracy : 85.7058823529
 --The results_test.conll file contains the results from the above model.
